@@ -1,0 +1,82 @@
+
+body{
+    margin: 0;
+    padding:0;
+    background-image:url('/img/eiffel_bg.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+header{
+
+    background-color: aquamarine;
+    height: 40px;
+    width: 100%;
+}
+
+.section1{
+    
+    display: grid;
+    grid-template-columns: 3fr 2fr ;
+
+    margin: 130px 0px 0px 0px ;
+}
+.card1{
+    text-align: center;
+  
+    padding: 40px;
+    margin: 0px 60px 0px 300px;
+    color:white;
+
+
+
+}
+.card2{
+    color:white;
+   
+    margin:0px 0px 0px 20px;
+    width: 380px;
+
+
+}
+.card2 input{
+    padding:5px 8px;
+    margin: 1px;
+    border-radius: 5px;
+    
+}
+.card2 input[name=name],[name=password]{
+    width: 94%;
+}
+.btn1{
+    width: 28%;
+    padding:5px 8px;
+    background-color: red;
+    border-radius: 5px;
+}
+.btn2{
+    width: 50%;
+    padding:5px 8px;
+    background-color: red;
+    border-radius: 5px;
+}
+.signin input[type=password]{
+  width:65%;
+}
+.signup input[type=password]{
+    width:94%;
+  }
+
+.signup select{
+    padding: 5px 8px;
+    width:45%;
+    margin:0px 10px 0px 4px;
+}
+footer{
+    text-align: center;
+    color:white;
+    padding-top: 70px;
+    padding-left: 20px;
+}

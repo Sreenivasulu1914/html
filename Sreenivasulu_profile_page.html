@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+    <style>
+        body,h2, h3,p,ul,li {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1{
+            border-radius: ;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('./2566e.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Add color with opacity */
+            background-blend-mode: overlay;
+            /* Blend the image and color */
+            color: #291b1b;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #1a191e;
+            font-weight: bold;
+        }
+        nav ul li a:hover{
+            color: rgb(17, 17, 212);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+        }
+        h2{
+            background-color: rgb(157, 167, 167);
+            padding: 10px;
+            text-align: center;
+        }
+        h2:hover{
+            background-color: rgb(44, 147, 147);
+            color: aliceblue;
+        }
+        h3{
+            background-color: rgb(119, 123, 174);
+            padding: 10px;
+            color: antiquewhite;
+            margin-top: 5px;
+        }
+        #mail{
+           text-decoration: none;
+
+        }
+        #mail:hover{
+            font-size:large;
+        }
+        .Qualification{
+            font-size:larger;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>PANASABOTLA SREENIVASULU</h1>
+            <p>Welcome to my personal profile webpage!</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#about"><i class="bi bi-person"></i> About </a></li>
+                <li><a href="#skills"><i class="bi bi-gear"></i> Skills</a></li>
+                <li><a href="#projects"><i class="bi bi-briefcase"></i>projects</a></li>
+                <li><a href="#education"><i class="bi bi-book"></i> Education</a></li>
+                <li><a href="#contact"><i class="bi bi-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                <img src="./2566e.jpg" alt="Your Name" style="width:200px; float:left; margin-right:20px;">
+                <span>
+                    Hello! My name is Sreenivasulu Panasabotla, a passionate and motivated final-year Master of Computer
+                    Application (MCA) student at Rayalaseema University, Kurnool. With a solid foundation in computer
+                    science and a keen interest in cybersecurity, I am driven by my desire to contribute to innovative
+                    projects and make a meaningful impact in the field of technology.<br>
+
+                    I completed my Bachelor of Science in Computer Science from BSR Degree College, Tirupati, where I
+                    achieved a commendable 76%. My academic journey has been marked by a deep curiosity and dedication
+                    to understanding complex systems and learning new technologies. I am particularly interested in
+                    cybersecurity, networking protocols, and cloud technologies, areas in which I have developed strong
+                    foundational skills.<br>
+
+                    In addition to my academic pursuits, I have hands-on experience working on a significant project
+                    titled Cyber-Physical System Hacking Breaches Prediction using Machine Learning. This project
+                    allowed me to explore the intersection of physical processes, computational resources, and
+                    communication capabilities while employing deep learning algorithms to detect cyber-attacks.<br>
+
+                    Outside of academics, I enjoy watching movies, listening to music, running, and following cricket. I
+                    believe in continuous learning and am always eager to expand my knowledge and skills in the
+                    ever-evolving field of technology.<br>
+
+                    I am currently seeking an entry-level position in a dynamic organization where I can leverage my
+                    skills and knowledge to contribute to impactful projects, particularly in the realm of cybersecurity
+                    and IT.<br>
+                </span>
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Development: HTML, CSS, JavaScript, SQL, Node.js, Java basics</li>
+                <li>Cybersecurity: Basic knowledge of cybersecurity concepts, network protocols, and cloud
+                    technologies</li>
+                <li>Machine Learning: Experience with deep learning algorithms, data analysis, and machine learning
+                    libraries (e.g., TensorFlow, Keras, Scikit-learn)</li>
+                <li>Project Management: Experience in handling complex projects, including Cyber-Physical Systems
+                    and predictive modeling</li>
+                <li>Tools and Technologies:Python, TensorFlow, Keras, Scikit-learn, Pandas, Numpy, Flask, MySQL
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Cyber-Physical System Hacking Breaches Prediction using Machine Learning : </h3>
+                <p>
+                    This project focuses on detecting and mitigating cyber-attacks in Cyber-Physical Systems (CPS).
+                    The CPS is modeled as a network of agents with leader-follower dynamics.
+                    I developed and trained deep neural networks to detect various types of cyber-attacks and
+                    implemented
+                    resilient control algorithms to isolate misbehaving agents. The project involved extensive data
+                    analysis
+                    and evaluation using machine learning algorithms, leading to a proactive approach in enhancing
+                    system security.
+                </p>
+                <ul>
+                    <li><strong>Technologies Used:</strong> Python, TensorFlow, Keras, Scikit-learn, Pandas, Numpy,
+                        Flask, MySQL</li>
+                    <li><strong>Key Responsibilities:</strong> Modeled CPS, trained deep neural networks, implemented
+                        resilient control algorithms, analyzed data, conducted experimental analysis.</li>
+                </ul>
+            </div>
+
+            <!-- Add more projects as needed -->
+        </section>
+
+
+
+
+        <section id="education">
+            <h2>Education</h2>
+            <ol>
+                <li><span class="Qualification">Master of Computer Application (MCA) </span>- Rayalaseema University, Kurnool (Pursuing, 2024)</li>
+                <li><span class="Qualification">Bachelor of Science in Computer Science (B.Sc)</span> - BSR Degree College, Tirupati (2021) - Percentage:
+                    76%</li>
+                <li><span class="Qualification">Intermediate (MPC)</span> - BSR Junior College, Tirupati (2018) - Percentage: 85%</li>
+                <li><span  class="Qualification" >Schooling</span> - Government High School (Z.P.H.S), Kothacheruvu - Percentage: 88%</li>
+            </ol>
+        </section>
+
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me at: <a href="mailto:sreenivasulupanasbotla@gmail.com" id="mail">sreenivasulupanasbotla@gmail.com</a></p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Sreenivasulu Panasabotla. All rights reserved.</p>
+        </footer>
+    </div>
+    
+</body>
+
+</html>

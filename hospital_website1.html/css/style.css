@@ -1,0 +1,320 @@
+
+/* Global Styles */
+
+
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.logo{
+    text-align: center;
+    font-size: 48px;
+}
+.logo .super{
+   font-family: 'forte';
+   color: #2FA5EB;
+}
+.logo .hospital{
+    font-family: 'forte';
+}
+header{
+    border-bottom: 1px solid gray;
+}
+.nav_div{
+    align-items: baseline;
+}
+.navbar{
+    width: 70%;
+    text-align: center;
+    margin-left: 180px;
+    
+}
+nav ul{ 
+    padding: 30px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    
+}
+nav ul li{
+    list-style-type: none;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.contact{
+    text-align: right;
+    background-color: #2FA5EB;
+    color: aliceblue;
+    margin-top: 30px;
+    padding: 8px 50px 8px 0px;
+}
+footer .footer_div2{
+    
+    background-color: black;
+    color: whitesmoke;
+    width: 80%;
+    padding: 10px;
+    margin-left: 90px;
+}
+footer .footer_div1{
+    background-color:  #2FA5EB;
+    width: 100%;
+    
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; 
+    z-index: 1000;
+
+
+}
+
+body {
+    padding-top: 120px;
+}
+
+
+
+
+/*Index Page Styles*/
+
+
+
+.home_page_img{
+    width: 80%;
+    height: 100%;
+    padding: 0px 0px 0px 150px;
+    
+}
+.sec_homeimg{
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid rgb(206, 199, 199);
+    border-bottom: 1px solid rgb(206, 199, 199);
+    height: 432.5px;
+}
+.main_content{
+    width:50%;
+    text-align: left;
+    padding: 0px 0px 0px 225px;
+}
+.form{
+    margin: 0px 0px 0px 600px;
+
+    width: 40%;
+}
+.form-group{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form-group input{
+    margin: 10px ;
+    padding:10px;
+}
+.form-group select{
+    margin: 10px ;
+    padding:10px;
+
+}
+textarea{
+    height: 70px;
+    width: 96%;
+    text-align: center;
+    margin-left: 11px;
+}
+button[type=submit]{
+    width:97%;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    color: white;
+    background-color: #2FA5EB;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+/* About Page Styles*/
+    
+.about_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 230px;
+    
+    
+}
+.section1{
+    width: 95%;
+}
+.section2{
+ margin-left: 230px;
+ margin-top: 40px;
+ margin-bottom: 40px;
+}
+.hospital_address{
+    text-align: justify;
+}
+.aboutPageImg{
+    margin-top: 35px;
+    height: 80%;
+    margin-left: 20px;
+    width: 60%;
+}
+
+/* Contact Page */
+
+
+.form_div{
+    width: 70%;
+    padding-left: 248px;
+}
+.form_div select,input{
+   width: 95%;
+   padding: 5px;
+   margin: 15px;
+   border: none;
+   border-bottom: 2px solid gray;
+   outline: none;
+}
+.form_div select:focus,input:focus{
+    
+    border-bottom: 2px solid red;
+}
+
+
+.form_div h3{
+    text-align: center;
+}
+#btn{
+   background-color:  #2FA5EB;
+   color: whitesmoke;
+   width: 100%;
+   padding: 10px;
+   margin: 15px;
+   border-radius: 8px;
+}
+.section_contact{
+   padding-left:248px ;
+
+}
+.section_contact p{
+   color:gray;
+}
+.contact_form{
+   width:550px;
+   margin-left: 208px;
+   padding: 30px;
+   box-shadow: 3px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+fieldset{
+    text-align: center;
+    padding: 40px;
+    margin: 40px;
+    
+}
+.form_sec{
+    padding:30px 0px;
+}
+.form_h3{
+    border:2px solid black;
+    width:200px;
+    padding: 8px;
+    margin-left:400px;
+    border-radius: 10px;
+    background-color:  #94c7e4;
+    color:white;
+}
+
+
+
+
+
+
+
+
+/* Doctors Page*/
+
+
+
+
+.doctors_sec{
+    
+    width: 70%;
+    padding-bottom: 60px;
+
+}
+
+.doctorListContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding-left: 220px;
+    
+}
+.card-img{
+    border-radius: 180px;
+    width: 150px;
+    margin-top: 30px;
+}
+.card{
+    border: 2px solid gray;
+    text-align: center;
+    margin:10px;
+    width:300px;
+    height:450px;
+    background-color:  #2FA5EB;
+    border-radius: 2%;
+    color: whitesmoke;
+    
+    
+}
+.cardCaption{
+   padding: 15px;
+   text-align: left;
+   
+   height: 200px;
+}
+.cardCaption div button{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    margin-top: 25px;
+    border: 2px solid black;
+    
+}
+.card_details{
+  
+  font-size: 20px;
+  color: lightgray;
+  
+}
+.Doc_Heading{
+    text-align: center;
+    padding-left: 400px;
+}
+
+/*Services Page*/
+
+
+.ServicePage_sec{
+    padding-left: 248px;
+    width:70%;
+}
+.section-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ServicePage_img{
+    width: 80%;
+}
+

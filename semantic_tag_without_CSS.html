@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Webpage</title>
+   
+</head>
+
+</style>
+<body>
+
+
+<div>
+   
+    <div class="header">
+        <h1>Welcome to Div Webpage</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="main">
+        
+        <div class="section" id="home">
+            <div class="article">
+                <h2>Home</h2>
+                <p>This is the homepage section of the website. It introduces the content and purpose of the site.</p>
+            </div>
+        </div>
+
+        
+        <div classs="section" id="about">
+            <div class="article">
+                <h2>About Us</h2>
+                <p>Learn more about our mission, values, and the team behind this website.</p>
+            </div>
+        </div>
+
+       
+        <div class="section" id="services">
+            <div class="article">
+                <h2>Our Services</h2>
+                <p>Explore the various services we offer to our customers.</p>
+            </div>
+        </div>
+
+       
+        <div class="Section" id="contact">
+            <div class="article">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us for any queries or feedback.</p>
+                  <fieldset style="border:4px solid brown;margin:50px;width:300px">
+						     <legend>Personal Details</legend>
+							     <label for="fname">First Name</label>
+								 <input type="text" title="Given Name"id="fname" name="firstname" pattern="[A-Za-z]{6,20}" placeholder="Access key N" accesskey="n" required><br><br>
+								 <label for="Lname">Last Name</label>
+								 <input type="text" id="Lname" name="lastname" pattern="[A-Za-z]{6,20}" placeholder="Access key S" accesskey="s" required><br><br>
+								 <label>Email</label>
+								 <input type="email" id="email"  name="email" required placeholder="email Id"><br><br>
+								 <label for="num">Phone No </label>
+								 <input type="text" id="num" name="number" pattern="[0-9]{10}" title="enter valid mobile number" required><br><br>
+								 <input type="text" name="address" placeholder="ADDRESS"><br><br>
+								 <label>Country</label>
+								 <select>
+								     <option></option>
+								     <option>India</option>
+									 <option>USA</option>
+									 <option>UK</option>
+									 <option>Australia</option>
+									 <option>Chaina</option>
+									 <option>Russia</option>
+								 </select><br><br>
+								 <label for="city">City</label>
+								 <input type="text" pattern="[A-Za-z]" required placeholder="City"><br><br>
+								 <label for="file">Resume:</label><br><br>
+								 <input type="file" accept=".pdf,.docx,.jpg,.jpeg" id="file" required title="Insert Only PDF file" ><br><br>
+								 <label for="DOB">Date of Birth</label>
+								 <input type="Date" id="DOB" ><br><br>
+								 <label for="profile_link">Linkedin Prdofile</label>
+								 <input type="url"  id="profile_link">
+								 
+								 
+							 
+						</fieldset>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="footer">
+        <p>&copy; 2024 My Semantic Webpage. All rights reserved.</p>
+    </div>
+ 
+  </div>
+</body>
+</html>

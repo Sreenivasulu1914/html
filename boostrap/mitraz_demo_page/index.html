@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Navbar</title>
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+    footer{
+      
+      background-color: rgb(233, 227, 227);
+    }
+    .nav-item{
+      margin-right:30px ;
+    }
+    .nav-item:hover{
+       border-bottom: 2px solid gray;
+    }
+    .dropdown-item:hover{
+      background-color: blue;
+      color: white;
+    }
+    td:hover{
+       background-color: black;
+       color: white;
+    }
+    p{
+      text-align: justify;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <!--  Navbar  -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Logo aligned left -->
+      <a class="navbar-brand" href="#">
+        <img src="https://mitraz.org/wp-content/uploads/2021/10/Mitraz-logo-1.png" alt="Logo" width="300" height="100">
+      </a>
+
+      <!-- Toggler for small screens -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar content aligned right -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <!-- Dropdowns and anchor tags -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <!-- Dropdown 1 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown1" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              About Us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown1">
+              <li><a class="dropdown-item" href="#">Our Inspiration</a></li>
+              <li><a class="dropdown-item" href="#">Our Vision</a></li>
+              <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li><a class="dropdown-item" href="#">Annual Report</a></li>
+              <li><a class="dropdown-item" href="#">Brochure</a></li>
+            </ul>
+          </li>
+          <!-- Dropdown 2 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown2" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Our Initiatives
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown2">
+              <li><a class="dropdown-item" href="#">Youth Care</a></li>
+              <li><a class="dropdown-item" href="#">Socio Care</a></li>
+              <li><a class="dropdown-item" href="#">Elderly Care</a></li>
+              <li><a class="dropdown-item" href="#">Earth Care</a></li>
+            </ul>
+          </li>
+          <!-- Dropdown 3 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown3" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Blog
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown3">
+              <li><a class="dropdown-item" href="#">Events 2022</a></li>
+              <li><a class="dropdown-item" href="#">Corporate Engagment</a></li>
+              <li><a class="dropdown-item" href="#">Events</a></li>
+              <li><a class="dropdown-item" href="#">Stories of change</a></li>
+              <li><a class="dropdown-item" href="#">press News</a></li>
+              <li><a class="dropdown-item" href="#">Testimonials</a></li>
+            </ul>
+          </li>
+          <!-- Dropdown 4 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown4" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Volunteer
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown4">
+              <li><a class="dropdown-item" href="#">Connect & Co-Create</a></li>
+              <li><a class="dropdown-item" href="#">Love in Action</a></li>
+              <li><a class="dropdown-item" href="#">Xtra Mile Mitra Smile</a></li>
+            </ul>
+          </li>
+
+          <!-- Anchor tag (after 4 dropdowns) -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+
+          <!-- Dropdown 5 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown5" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Donation
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown5">
+              <li><a class="dropdown-item" href="#">Donate</a></li>
+              <li><a class="dropdown-item" href="#">Term Plans</a></li>
+              <li><a class="dropdown-item" href="#">Brick by Brick</a></li>
+              <li><a class="dropdown-item" href="#">Count Me In </a></li>
+              <li><a class="dropdown-item" href="#">CSR</a></li>
+            </ul>
+          </li>
+
+          <!-- Anchor tag (after dropdown 5) -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+  <!--     Carousel       -->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="./img/image copy 2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./img/image copy.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./img/image.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!--    About Us    -->
+
+
+
+  <div style="display: grid;grid-template-columns: 3fr 2fr; width: 80%;margin-left: 10%;margin-right: 10%;"
+    class="mt-5">
+    <div>
+      <h2>About Us</h2>
+      <p>
+        MITRAz (Moulding Intellect through TRaining And Zeal ) is a Sec.12AA-registered public charitable trust
+        established in 2017 in Puttaparthi, Anantapur Dist. Andhra Pradesh. MITRAz draws its inspiration from Bhagwan
+        Sri Sathya Sai Baba and His magnanimous projects for the welfare of mankind.
+      </p>
+      <p>
+        As passionate educationists, we provide free skill development courses to students from rural backgrounds under
+        our flagship program MITRAz Skills with the view to uplifting young lives. This first-of-its-kind project
+        focusses on imparting a holistic blend of technical skills, soft skills and human values
+      </p>
+      <p>
+        As an NGO working at the grassroots level, we have identified and initiated several service activities to deal
+        with acute community problems. Amongst these is Mitravaani, our 24/7 free cellphone radio service that provides
+        credible information to digitally challenged communities.
+      </p>
+      <strong>
+        Driven by a determined spirit of seva, we are constantly on the lookout for opportunities to engage meaningfully
+        with our community and make the world a better place.
+      </strong><br><br>
+      <button class="btn btn-secondary">Know More</button>
+    </div>
+    <div>
+      <img src="./img/image copy 6.png" width="450" height="400"><br><br>
+      <button class="btn btn-secondary" style="margin-left: 90px;">Hear it from the MITRAites</button>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!--          Table       -->
+
+
+  <div style="width: 80%; margin-left: 10%;" class="mt-5">
+    <h3 style="text-align: center;background-color: green;color: white;padding: 10px;">Students Information</h3>
+
+    <table class="table" style="text-align: center;">
+      <tr class="table-dark">
+        <th>Sl.No</th>
+        <th>Name</th>
+        <th>Group</th>
+        <th>Mobile Number</th>
+      </tr>
+      <tr class="table-primary">
+        <td>1</td>
+        <td>SREENIVAS</td>
+        <td class="bg-danger text-white">IT</td>
+        <td>7680901559</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>2</td>
+        <td>SAI KUMAR</td>
+        <td class="bg-info text-white">BSFI</td>
+        <td>9364782880</td>
+      </tr>
+      <tr class="table-success">
+        <td>3</td>
+        <td>SASI KUMAR</td>
+        <td class="bg-info text-white">BFSI</td>
+        <td>9440947241</td>
+      </tr>
+      <tr class="table-danger">
+        <td>4</td>
+        <td>MADAN</td>
+        <td class="bg-danger text-white">IT</td>
+        <td>9701174752</td>
+      </tr>
+      <tr class="table-warning">
+        <td>5</td>
+        <td>RAKSHITHA</td>
+        <td class="bg-success text-white">GDA</td>
+        <td>7346590112</td>
+      </tr>
+      <tr class="info">
+        <td>6</td>
+        <td>REVATHI</td>
+        <td class="bg-success text-white">GDA</td>
+        <td>9392876450</td>
+      </tr>
+      <tr class="table-light">
+        <td>7</td>
+        <td>VAMSI</td>
+        <td class="bg-danger text-white">IT</td>
+        <td>7647987634</td>
+      </tr>
+
+    </table>
+
+
+
+
+
+
+  </div>
+
+
+
+
+  <!--    Footer     -->
+
+
+  <footer class="mt-5 pt-4 mb-5">
+    <div class="container">
+      <div class="row">
+        <!-- Column 1: Quick Links -->
+        <div class="col-md-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-black text-decoration-none"><i class="bi bi-chevron-double-right text-success"></i> Home</a></li>
+            <li><a href="#" class="text-black text-decoration-none"><i class="bi bi-chevron-double-right text-success"></i> About Us</a></li>
+            <li><a href="#" class="text-black text-decoration-none"><i class="bi bi-chevron-double-right text-success"></i> Services</a></li>
+            <li><a href="#" class="text-black text-decoration-none"><i class="bi bi-chevron-double-right text-success"></i> FAQs</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 2: Our Initiative -->
+        <div class="col-md-3">
+          <h5>Our Initiative</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-black text-decoration-none"><i class="bi bi-chevron-double-right text-success"></i> Green Energy</a></li>
+            <li><a href="#" class="text-black text-decoration-none"><i class="bi bi-chevron-double-right text-success"></i> Sustainability</a></li>
+            <li><a href="#" class="text-black text-decoration-none"><i class="bi bi-chevron-double-right text-success"></i> Community Support</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Contact Us -->
+        <div class="col-md-3">
+          <h5>Contact Us</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-black text-decoration-none"><i class="bi bi-envelope"></i> postbox.as9@gmail.com</a></li>
+            <li><a href="#" class="text-black text-decoration-none"><i class="bi bi-telephone-plus-fill"></i> 7680901559</a></li>
+            <li><a href="#" class="text-black text-decoration-none"><i class="bi bi-telephone-plus-fill"></i> 9701194753</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Connect with Us (Social Media) -->
+        <div class="col-md-3">
+          <h5>Connect with Us</h5>
+          <div class="d-flex">
+            <!-- Social Media Icons -->
+            <a href="#" class="text-black me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-black me-3"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-black me-3"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="text-black"><i class="bi  bi-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <div>
+         <div>
+           <Span><i class="bi bi-person-fill-add" style="font-size: 40px;color:orange;padding-left: 20px;"></i><i class="bi bi-cash-coin" style="font-size: 40px;color:orange;margin-left: 30px;"></i></Span> <span style="float: right;position:sticky; "><i class="bi bi-whatsapp" style="font-size: 40px;color: orange;padding-right: 20px;"></i></span>
+           
+         </div>
+         <div style="text-align: center; font-size: 20px; color: gray;" class="mb-5">
+          All Rights Reserved.   Powered by WeBrainy
+         </div>
+  </div>
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+
+</html>

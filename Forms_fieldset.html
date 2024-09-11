@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <title>forms</title>
+	  
+  </head>
+  <body>
+       <div   style="background-color:lightgreen;">
+	        <div  style="width:400px;;text-align:left;background-color:chacolate;padding:40px;">
+			      <form>
+				        <fieldset style="border:4px solid brown;margin:50px;">
+						     <legend>Personal Details</legend>
+							     <label for="fname">First Name</label>
+								 <input type="text" title="Given Name"id="fname" name="firstname" pattern="[A-Za-z]{6,20}" placeholder="Access key N" accesskey="n" required><br><br>
+								 <label for="Lname">Last Name</label>
+								 <input type="text" id="Lname" name="lastname" pattern="[A-Za-z]{6,20}" placeholder="Access key S" accesskey="s" required><br><br>
+								 <label>Email</label>
+								 <input type="email" id="email"  name="email" required placeholder="email Id"><br><br>
+								 <label for="num">Phone No </label>
+								 <input type="text" id="num" name="number" pattern="[0-9]{10}" title="enter valid mobile number" required><br><br>
+								 <input type="text" name="address" placeholder="ADDRESS"><br><br>
+								 <label>Country</label>
+								 <select>
+								     <option></option>
+								     <option>India</option>
+									 <option>USA</option>
+									 <option>UK</option>
+									 <option>Australia</option>
+									 <option>Chaina</option>
+									 <option>Russia</option>
+								 </select><br><br>
+								 <label for="city">City</label>
+								 <input type="text" pattern="[A-Za-z]" required placeholder="City"><br><br>
+								 <label for="file">Resume:</label><br><br>
+								 <input type="file" accept=".pdf,.docx,.jpg,.jpeg" id="file" required title="Insert Only PDF file" ><br><br>
+								 <label for="DOB">Date of Birth</label>
+								 <input type="Date" id="DOB" ><br><br>
+								 <label for="profile_link">Linkedin Prdofile</label>
+								 <input type="url"  id="profile_link">
+								 
+								 
+							 
+						</fieldset>
+						
+						
+						
+						<fieldset  style="border:4px solid yellow;margin:50px;">
+						<legend>Eductional details</legend>
+						<label for="degree">Degree<label>
+						<input type="text" id="degree" required Name="Degree"><br><br>
+						<label for="course">Specialization</label>
+						<input type="text" id="course" name="course"required><br><br>
+						<label for="stdate"> start date</label>
+						<input type="date" id="stdate" name="start_date">
+						<label for="enddate"> End date</label>
+						<input type="date" id="enddate" name="end_date"><br><br>
+						<label for="university">University Name</label>
+						<input type="text " id="university" name="university" required> <br><br>
+						<label for="college">College Name</label>
+						<input type="text" id="college" name="college" required> <br><br>
+						<label>Skills</label>
+						<input type="checkbox" name="skills" value="HTML">HTML
+						<input type="checkbox" name="skills" value="CSS">CSS
+						<input type="checkbox" name="skills" value="JAVASCRIPT">JAVASSCRIPT
+						<input type="checkbox" name="skills" value="JAVA">JAVA
+						<input type="checkbox" name="skills" value="PYTHON">PYTHON
+						
+						</fieldset>
+						<fieldset style="border:4px solid red;margin:50px;">
+						  <legend>Other input forms</legend>
+						  <label for="time">time Input</label>
+						  <input type="time" id="time" ><br><br>
+						   <label for="month">Month</label>
+						  <input type="month" id="month"><br><br>
+						   <label for="color">Month</label>
+						  <input type="color" id="color"><br><br>
+						  
+						  <label for="radio">Gender</label>
+					      <input type="radio" id="male" name="Gender" value="male"> Male
+				        	<input type="radio" id="female" name="Gender" value="female"> Female<br><br><br>
+						  <label for="range">time Input</label>
+						  <input type="range" id="range" name="range" min="0" max="300"><br><br>
+						  
+						  
+						</fieldset>
+						<button type="submit">Submit accesskey 'B'</button>
+						<button type="reset"   accesskey="r">Reset shortcut 'R'</button>
+				  </form> 
+			</div>
+	   </div>
+  </body>
+</html>

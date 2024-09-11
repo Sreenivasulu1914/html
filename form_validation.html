@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <title>forms</title>
+	   <style>
+		input[type=text],[type=email],[type=file],[type=date],[type=url],[type=time],[type=month],[type=range],select{	
+			width: 600px;
+			margin: 12px 0px;
+			padding: 12px 20px;
+			display: inline-block;
+
+
+		}
+		.content{
+
+			margin-left: 380px;
+			border: 2px solid black;
+			padding: 20px;
+			background-color: #594f4f;
+			width: 700px;
+			color: antiquewhite;
+		}
+		
+		
+		input[type=checkbox]{
+			padding-left: 80px;
+		}
+		button[type=submit]{
+			
+			width: 600px;
+			margin: 12px 0px;
+			padding: 12px 20px;
+			display: inline-block;
+			background-color: green;
+			color: aliceblue;
+
+
+		}
+		button[type=reset]{
+            width: 600px;
+			margin: 12px 0px;
+			padding: 12px 20px;
+			display: inline-block;
+			background-color: red;
+			color: whitesmoke;
+			
+
+		}
+		
+		
+	   </style>
+	  
+  </head>
+  <body>
+       <div class="content">
+	        
+			      <form>
+				       
+							     <label for="fname">First Name</label><br>
+								 <input type="text" title="Given Name"id="fname" name="firstname" pattern="[A-Za-z]{6,20}" placeholder="Access key N" accesskey="n" required><br><br>
+								 <label for="Lname">Last Name</label><br>
+								 <input type="text" id="Lname" name="lastname" pattern="[A-Za-z]{6,20}" placeholder="Access key S" accesskey="s" required><br><br>
+								 <label>Email</label><br>
+								 <input type="email" id="email"  name="email" required placeholder="email Id"><br><br>
+								 <label for="num">Phone No </label><br>
+								 <input type="text" id="num" name="number" pattern="[0-9]{10}" title="enter valid mobile number" required><br><br>
+								 <input type="text" name="address" placeholder="ADDRESS"><br><br>
+								 <label>Country</label><br>
+								 <select>
+								     <option></option>
+								     <option>India</option>
+									 <option>USA</option>
+									 <option>UK</option>
+									 <option>Australia</option>
+									 <option>Chaina</option>
+									 <option>Russia</option>
+								 </select><br><br>
+								 <label for="city">City</label><br>
+								 <input type="text" pattern="[A-Za-z]" required placeholder="City"><br><br>
+								 <label for="file">Resume:</label><br><br>
+								 <input type="file" accept=".pdf,.docx,.jpg,.jpeg" id="file" required title="Insert Only PDF file" ><br><br>
+								 <label for="DOB">Date of Birth</label><br>
+								 <input type="Date" id="DOB" ><br><br>
+								 <label for="profile_link">Linkedin Prdofile</label>
+								 <input type="url"  id="profile_link"><br>
+								 <br>
+								 
+								 
+							 
+						
+						<label>Skills</label><br>
+						<input type="checkbox" name="skills" value="HTML">HTML
+						<input type="checkbox" name="skills" value="CSS">CSS
+						<input type="checkbox" name="skills" value="JAVASCRIPT">JAVASSCRIPT
+						<input type="checkbox" name="skills" value="JAVA">JAVA
+						<input type="checkbox" name="skills" value="PYTHON">PYTHON<br><br>
+						
+						
+						
+						  <label for="time">time Input</label><br>
+						  <input type="time" id="time" ><br><br>
+						   <label for="month">Month</label><br>
+						  <input type="month" id="month"><br><br>
+						   <label for="color">Color</label><br><br>
+						  <input type="color" id="color"><br><br>
+						  
+						  <label for="radio">Gender</label><br><br>
+					      <input type="radio" id="male" name="Gender" value="male"> Male
+				        	<input type="radio" id="female" name="Gender" value="female"> Female<br><br><br>
+						  <label for="range">Range</label><br>
+						  <input type="range" id="range" name="range" min="0" max="300"><br><br>
+						  
+						  
+						
+						<button type="submit">Submit accesskey 'B'</button>
+						<button type="reset"   accesskey="r">Reset shortcut 'R'</button>
+				  </form> 
+			
+	   </div>
+  </body>
+</html>

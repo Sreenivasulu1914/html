@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Naukri_registrastion</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(179, 170, 170);
+        }
+        input[type=text],[type=email],[type=password],[type=tel]{
+            width: 90%;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+        }
+        button{
+            width:50%;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #2838b1;
+            color: whitesmoke;
+        }
+        button:hover{
+            background-color: #c67b2a;
+        }
+        #work_status_button{
+            display:flex;
+        }
+        button[type=submit]{
+            background-color: #2a5f2c;
+        }
+        button[type=submit]:hover{
+            background-color: #21a225;
+        }
+        img{
+            padding-left: 170px;
+        }
+        .footer span a{
+              padding: 10px;
+              text-decoration: none;
+              color: antiquewhite;
+            
+        }
+        .footer{
+            background-color: blue;
+            color: antiquewhite;
+            padding: 20px;
+        }
+        .footer span a:hover{
+          background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div align="center" >
+
+        <div style="border: 2px solid rgb(59, 54, 47);width: 550px; padding: 20px;" align="left">
+              <img src="https://static.naukimg.com/s/0/0/i/naukri-identity/naukriLogo.svg" width="200px">
+            <div >
+                <h2>Create your Naukri profile</h2>
+                <p>search & apply to jobs from india's No.1 job site</p>
+                <form>
+                    <label>Full Name</label><br>
+                    <input type="text" placeholder="what is your name?"><br>
+                    <label>Email Id</label><br>
+                    <input type="email" placeholder="your email id"><br>
+                    <p>we'll send revalant jobs and updates to this email</p>
+                    <label>Password</label><br>
+                    <input type="password" placeholder="(minimum 6 charcters)"><br>
+                    <p>this helps your account stay protected</p>
+                    <label>Mobile Number</label><br>
+                    <input type="tel" placeholder="your mobile number"><br>
+                    <p>Recruiters will contact you on this number</p>
+                    <label>Work Status</label><br>
+                    <div id="work_status_button">
+                        <button>
+                            I'm Experienced
+                            i have work experience
+                            (excluding intership)
+                        </button> &nbsp;&nbsp;
+                        <button>
+                            I'm a fresher
+                            i am a student/haven't
+                            worked after graduation
+                        </button><br>
+                    </div>
+                    <input type="checkbox">Send me important updates & promotions via SMS,email,and Whatsapp<br>
+                    <p>By clicking Register ,you agree to the <a href="">Terms and Conditions</a>&<a href="">Privacy Policy</a> of Naukri.com</p>
+                    <button type="submit"> Register Now</button>
+
+                </form>
+            </div>
+            <hr>
+            <div>
+                <p>Continue with </p>
+                <button>Google</button>
+            </div>
+
+        </div>
+        <hr>
+        <div class="footer">
+            <span><a href="">About Us</a></span>|
+            <span><a href="">Contact Us</a></span>|
+            <span><a href="">FAQs</a></span>|
+            <span><a href="">terms and Conditions</a></span>|
+            <span><a href="">Report a Problem</a></span>|
+            <span><a href="">Privacy Policy</a></span>
+            <p>All rights reserved &copy; 2024 info Edge India Ltd.</p>
+
+        </div>
+    </div>
+</body>
+</html>
